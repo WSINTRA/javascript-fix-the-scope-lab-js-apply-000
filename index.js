@@ -1,21 +1,27 @@
-var animal = 'dog'
+var animala = 'dog'
+var animalb = 'cat'
 
 function myAnimal() {
-  return animal
+  return animala
 }
 
 function yourAnimal() {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
-  return animal
+  return animalb
 }
 
 function add2(n) {
+const two = 2
+  try{
+  if(n == "") throw "not a number";
+  if (isNaN(n)) throw 'not a number';
+}
   return n + two
 
   // Feel free to move things around!
-  const two = 2
+
 }
 
 var funkyFunction = function() {
