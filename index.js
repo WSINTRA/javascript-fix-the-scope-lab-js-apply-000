@@ -18,8 +18,9 @@ const two = 2
   if(n == "") throw "not a number";
   if (isNaN(n)) throw 'not a number';
 }
+finally {
   return n + two
-
+}
   // Feel free to move things around!
 
 }
